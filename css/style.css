@@ -1,0 +1,24 @@
+body{
+  background-color: #000000;
+}
+.navbar-brand{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 28px;
+  padding: 0px;
+}
+.btn, #shop:hover, #shop:active, #shop:visited{
+  background-color: #990200;
+  border: 1px solid #990200;
+  margin: 0px;
+}
+#go, .btn{
+  cursor:not-allowed;
+}
+#go, #home:hover, #about:hover{
+  color: #990200;
+  border-color: #990200;
+}
+#home:active, #about:active{
+  color: #c10200;
+}
