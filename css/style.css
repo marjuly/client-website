@@ -1,19 +1,33 @@
 body{
   background-color: #000000;
 }
-
+h2{
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+}
+nav{
+  width: 100%;
+  white-space: nowrap;
+}
+img{
+  width: 300px;
+}
+.carousel-item, .jumbotron{
+  height: 400px;
+}
 .navbar-brand{
   font-weight: bold;
   font-style: italic;
   font-size: 28px;
   padding: 0px;
 }
-.btn, #shop:hover, #shop:active, #shop:visited{
+#shop, #shop:hover, #shop:active, #shop:visited{
   background-color: #990200;
   border: 1px solid #990200;
 }
-#go, .btn{
-  cursor:not-allowed;
+#go, #shop, .btn{
+  cursor:not-allowed !important;
 }
 #go, #home:hover, #about:hover{
   color: #990200;
