@@ -36,3 +36,13 @@ img{
 #home:active, #about:active{
   color: #c10200;
 }
+.emp{
+  display: inline;
+  margin: 45px;
+}
+.info{
+  color: #ffffff
+}
+.img{
+  margin-left: 90px;
+}
